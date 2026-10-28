@@ -56,12 +56,13 @@
         </ul>
 
         <h2>Nosotros en</h2>
-        <!-- TODO: reemplazar href="#" de X, TikTok y YouTube por los links reales del equipo -->
+        <!-- TODO: reemplazar href="#" de X y TikTok por los links reales del equipo -->
         <ul class="capsulas">
           <li><a class="capsula" href="https://www.instagram.com/roboticlyons_/" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4.200"/><circle class="rel" cx="17.300" cy="6.700" r="1.200"/></svg>Instagram</a></li>
+          <li><a class="capsula" href="https://www.facebook.com/people/Robotic-Lyons/pfbid026QXcEaVeUhxuSZdeYcthdB3QTh4LwKBF8sSaT41RJ3GzKYqVBm9bQjbrikHGEhjJl/" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>Facebook</a></li>
           <li><a class="capsula" href="#" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><path class="rel" d="M18.900 2H22l-7.200 8.200L23 22h-6.600l-5.200-6.800L5.300 22H2l7.700-8.800L1.500 2h6.800l4.700 6.200L18.900 2zm-1.200 18h1.800L7.400 3.900H5.500L17.700 20z"/></svg>X</a></li>
           <li><a class="capsula" href="#" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><path class="rel" d="M16.600 2h-3.200v13.100a2.900 2.900 0 1 1-2.900-2.900c.3 0 .6 0 .8.100V9a6.100 6.100 0 1 0 5.300 6V8.600a7.600 7.600 0 0 0 4.400 1.400V6.800A4.400 4.400 0 0 1 16.600 2z"/></svg>TikTok</a></li>
-          <li><a class="capsula" href="#" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="2.500" y="5" width="19" height="14" rx="4"/><path class="rel" d="m10 9.200 5 2.800-5 2.800z"/></svg>YouTube</a></li>
+          <li><a class="capsula" href="https://www.youtube.com/@roboticslyons" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="2.500" y="5" width="19" height="14" rx="4"/><path class="rel" d="m10 9.200 5 2.800-5 2.800z"/></svg>YouTube</a></li>
           <li><a class="capsula" href="https://ftc-events.firstinspires.org/2025/team/34144" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c3 3 3 15 0 18M12 3c-3 3-3 15 0 18"/></svg>FTC</a></li>
           <li><a class="capsula" href="https://mzapata.uncuyo.edu.ar/" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 20h16M5 20V10M19 20V10M9.500 20V10M14.500 20V10M3 10l9-6 9 6z"/></svg>Institución</a></li>
         </ul>
@@ -77,31 +78,4 @@
           <input type="hidden" name="_next" id="next" value="">
           <input class="trampa" type="text" name="_honey" tabindex="-1" autocomplete="off" aria-hidden="true">
           <label for="nombre">Nombre</label>
-          <input type="text" id="nombre" name="nombre" required>
-          <label for="mail">Mail</label>
-          <input type="email" id="mail" name="email" required>
-          <label for="mensaje">Mensaje</label>
-          <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
-          <button class="boton" type="submit">Enviar</button>
-        </form>
-      </section>
-    </div>
-
-    <h2>Seguinos</h2>
-    <p>Avances del robot, detrás de escena y novedades del equipo, en Instagram: <a href="https://www.instagram.com/roboticlyons_/" target="_blank" rel="noopener">@roboticlyons_</a></p>
-  </main>
-
-  <footer>
-    <p><a href="contacto.html">Redes sociales e info de contacto</a></p>
-    <p><a href="sponsors.html">Sponsors</a>: UNCuyo · El Taller en 3D · El Portal Aberturas</p>
-    <p><a href="outreach.html">Outreach</a>: ShadowFox · RBK7FTC · Team Dynamita</p>
-    <p>Kairos · Equipo FTC #34144</p>
-  </footer>
-  <script>
-    // Vuelve a esta página con ?enviado=1 después de mandar el formulario
-    var u = new URL(location.href); u.search = "?enviado=1"; u.hash = "";
-    document.getElementById("next").value = u.href;
-    if (location.search.indexOf("enviado=1") > -1) document.getElementById("aviso").hidden = false;
-  </script>
-</body>
-</html>
+          <input type="
