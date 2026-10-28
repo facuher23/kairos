@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Sponsors que apoyan a Kairos.">
+  <title>Sponsors | Kairos</title>
+  <link rel="icon" href="img/logo.jpg">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <div class="barra">
+      <a class="marca" href="index.html"><img src="img/logo.jpg" alt="Logo Kairos"> Kairos</a>
+      <nav aria-label="Menú principal">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="team.html">Team</a></li>
+          <li><a href="robot.html">Robot</a></li>
+          <li><a href="galeria.html">Galería</a></li>
+          <li><a href="outreach.html">Outreach</a></li>
+          <li><a href="sponsors.html" aria-current="page">Sponsors</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <h1>Sponsors</h1>
+    <p class="subtitulo">Gracias a quienes hacen posible que el equipo siga creciendo.</p>
+
+    <h2>Nuestros sponsors</h2>
+    <p class="ayuda">Tocá un sponsor para conocerlo.</p>
+    <div class="sponsors-grilla" id="sponsors-lista">
+      <noscript><p>Activá JavaScript para ver el detalle de cada sponsor: UNCuyo, El Taller en 3D y El Portal Aberturas.</p></noscript>
+    </div>
+
+    <h2>Sponsors contactados</h2>
+    <p>Empresas e instituciones a las que les presentamos el proyecto.</p>
+    <div class="sponsors-contactados" aria-label="Sponsors contactados">
+      <span class="contacto-burbuja">UNCuyo</span>
+      <span class="contacto-burbuja">El Taller en 3D</span>
+      <span class="contacto-burbuja">El Portal Aberturas</span>
+      <span class="contacto-burbuja">Printing Mendoza</span>
+      <span class="contacto-burbuja">Emperatriz</span>
+      <span class="contacto-burbuja">Bordados Vista</span>
+    </div>
+
+    <h2>Sé nuestro sponsor</h2>
+    <p>Si querés apoyar al equipo, escribinos.</p>
+    <a class="boton" href="contacto.html">Quiero ser sponsor</a>
+  </main>
+
+  <footer>
+    <p><a href="contacto.html">Redes sociales e info de contacto</a></p>
+    <p><a href="sponsors.html">Sponsors</a>: UNCuyo · El Taller en 3D · El Portal Aberturas</p>
+    <p><a href="outreach.html">Outreach</a>: ShadowFox · RBK7FTC · Team Dynamita</p>
+    <p>Kairos · Equipo FTC #34144</p>
+  </footer>
+  <div class="modal" id="sponsor-modal" role="dialog" aria-modal="true" aria-labelledby="sponsor-titulo" hidden>
+    <div class="modal-caja" id="sponsor-caja"></div>
+  </div>
+  <script src="js/sponsors.js"></script>
+</body>
+</html>
