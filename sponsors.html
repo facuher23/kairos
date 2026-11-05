@@ -33,18 +33,41 @@
     <h2>Nuestros sponsors</h2>
     <p class="ayuda">Tocá un sponsor para conocerlo.</p>
     <div class="sponsors-grilla" id="sponsors-lista">
-      <noscript><p>Activá JavaScript para ver el detalle de cada sponsor: UNCuyo, El Taller en 3D y El Portal Aberturas.</p></noscript>
+      <a class="sponsor" href="#uncuyo">
+        <span class="sponsor-img"><img src="img/sponsors/uncuyo.jpg" alt="Logo de UNCuyo" loading="lazy"></span>
+        <span class="sponsor-nombre">UNCuyo</span>
+      </a>
+      <a class="sponsor" href="#el-taller-en-3d">
+        <span class="sponsor-img"><img src="img/sponsors/el-taller-en-3d.jpg" alt="Logo de El Taller en 3D" loading="lazy"></span>
+        <span class="sponsor-nombre">El Taller en 3D</span>
+      </a>
+      <a class="sponsor" href="#el-portal-aberturas">
+        <span class="sponsor-img"><img src="img/sponsors/el-portal-aberturas.png" alt="Logo de El Portal Aberturas" loading="lazy"></span>
+        <span class="sponsor-nombre">El Portal Aberturas</span>
+      </a>
+      <a class="sponsor" href="#printing-mendoza">
+        <span class="sponsor-img"><img src="img/sponsors/printing-mendoza.jpg" alt="Logo de Printing Mendoza" loading="lazy"></span>
+        <span class="sponsor-nombre">Printing Mendoza</span>
+      </a>
+      <a class="sponsor" href="#bordados-vista">
+        <span class="sponsor-img"><img src="img/sponsors/bordados-vista.jpg" alt="Logo de Bordados Vista" loading="lazy"></span>
+        <span class="sponsor-nombre">Bordados Vista</span>
+      </a>
+      <a class="sponsor" href="#emperatriz">
+        <span class="sponsor-img"><img src="img/sponsors/emperatriz.jpg" alt="Logo de Emperatriz" loading="lazy"></span>
+        <span class="sponsor-nombre">Emperatriz</span>
+      </a>
     </div>
 
     <h2>Sponsors contactados</h2>
     <p>Empresas e instituciones a las que les presentamos el proyecto.</p>
     <div class="sponsors-contactados" aria-label="Sponsors contactados">
-      <span class="contacto-burbuja">UNCuyo</span>
-      <span class="contacto-burbuja">El Taller en 3D</span>
-      <span class="contacto-burbuja">El Portal Aberturas</span>
-      <span class="contacto-burbuja">Printing Mendoza</span>
-      <span class="contacto-burbuja">Emperatriz</span>
-      <span class="contacto-burbuja">Bordados Vista</span>
+      <span class="burbuja">UNCuyo</span>
+      <span class="burbuja">El Taller en 3D</span>
+      <span class="burbuja">El Portal Aberturas</span>
+      <span class="burbuja">Printing Mendoza</span>
+      <span class="burbuja">Emperatriz</span>
+      <span class="burbuja">Bordados Vista</span>
     </div>
 
     <h2>Sé nuestro sponsor</h2>
@@ -54,13 +77,164 @@
 
   <footer>
     <p><a href="contacto.html">Redes sociales e info de contacto</a></p>
-    <p><a href="sponsors.html">Sponsors</a>: UNCuyo · El Taller en 3D · El Portal Aberturas</p>
+    <p><a href="sponsors.html">Sponsors</a>: UNCuyo · El Taller en 3D · El Portal Aberturas · Printing Mendoza · Emperatriz · Bordados Vista</p>
     <p><a href="outreach.html">Outreach</a>: ShadowFox · RBK7FTC · Team Dynamita</p>
     <p>Kairos · Equipo FTC #34144</p>
   </footer>
-  <div class="modal" id="sponsor-modal" role="dialog" aria-modal="true" aria-labelledby="sponsor-titulo" hidden>
-    <div class="modal-caja" id="sponsor-caja"></div>
-  </div>
-  <script src="js/sponsors.js"></script>
+  <section class="modal" id="uncuyo" role="dialog" aria-labelledby="t-uncuyo">
+    <a class="modal-fondo" href="#sponsors-lista" aria-label="Cerrar"></a>
+    <article class="modal-caja">
+      <a class="cerrar" href="#sponsors-lista" aria-label="Cerrar">&times;</a>
+      <div class="modal-cab">
+        <img src="img/sponsors/uncuyo.jpg" alt="Logo de UNCuyo" loading="lazy">
+        <h2 id="t-uncuyo">UNCuyo</h2>
+      </div>
+      <div class="modal-bloque"><h3>¿Quiénes son?</h3><p>La Universidad Nacional de Cuyo es una universidad pública de Mendoza. Nuestra escuela forma parte de su comunidad educativa.</p></div>
+      <div class="modal-bloque"><h3>¿Qué hacen?</h3><p>Promueve la formación, la investigación y la extensión. Su acompañamiento nos ayuda a crecer como equipo.</p></div>
+      <div class="modal-bloque">
+        <h3>¿Dónde están?</h3>
+        <div>
+          <p>Centro Universitario, M5500 Mendoza</p>
+          <iframe class="mapa" title="Mapa de UNCuyo" loading="lazy" src="https://maps.google.com/maps?q=Centro%20Universitario%2C%20M5500%20Mendoza&amp;output=embed" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          <a class="mapa-link" href="https://www.google.com/maps/search/?api=1&amp;query=Centro%20Universitario%2C%20M5500%20Mendoza" target="_blank" rel="noopener">Abrir mapa grande</a>
+        </div>
+      </div>
+      <div class="modal-pie">
+        <a class="nav-sp" href="#emperatriz" aria-label="Sponsor anterior">&larr;</a>
+        <a class="boton" href="https://www.uncuyo.edu.ar/" target="_blank" rel="noopener">Visitar sitio</a>
+        <a class="nav-sp" href="#el-taller-en-3d" aria-label="Sponsor siguiente">&rarr;</a>
+      </div>
+    </article>
+  </section>
+
+  <section class="modal" id="el-taller-en-3d" role="dialog" aria-labelledby="t-el-taller-en-3d">
+    <a class="modal-fondo" href="#sponsors-lista" aria-label="Cerrar"></a>
+    <article class="modal-caja">
+      <a class="cerrar" href="#sponsors-lista" aria-label="Cerrar">&times;</a>
+      <div class="modal-cab">
+        <img src="img/sponsors/el-taller-en-3d.jpg" alt="Logo de El Taller en 3D" loading="lazy">
+        <h2 id="t-el-taller-en-3d">El Taller en 3D</h2>
+      </div>
+      <div class="modal-bloque"><h3>¿Quiénes son?</h3><p>Un taller dedicado a la impresión 3D.</p></div>
+      <div class="modal-bloque"><h3>¿Qué hacen?</h3><p>Acompaña al equipo con soluciones y piezas vinculadas a la fabricación 3D.</p></div>
+      <div class="modal-bloque">
+        <h3>¿Dónde están?</h3>
+        <div>
+          <p>Escuela de Comercio Martín Zapata, Mendoza</p>
+          <iframe class="mapa" title="Mapa de El Taller en 3D" loading="lazy" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3350.0668678244942!2d-68.8524783245349!3d-32.89640027361393!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x967e090e54158a53%3A0x6aa184bd31f5dca6!2sEscuela%20de%20Comercio%20Mart%C3%ADn%20Zapata!5e0!3m2!1ses-419!2sar!4v1793155437148!5m2!1ses-419!2sar" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          <a class="mapa-link" href="https://www.google.com/maps/search/?api=1&amp;query=El%20Taller%20en%203D%20Mendoza" target="_blank" rel="noopener">Abrir mapa grande</a>
+        </div>
+      </div>
+      <div class="modal-pie">
+        <a class="nav-sp" href="#uncuyo" aria-label="Sponsor anterior">&larr;</a>
+        <span></span>
+        <a class="nav-sp" href="#el-portal-aberturas" aria-label="Sponsor siguiente">&rarr;</a>
+      </div>
+    </article>
+  </section>
+
+  <section class="modal" id="el-portal-aberturas" role="dialog" aria-labelledby="t-el-portal-aberturas">
+    <a class="modal-fondo" href="#sponsors-lista" aria-label="Cerrar"></a>
+    <article class="modal-caja">
+      <a class="cerrar" href="#sponsors-lista" aria-label="Cerrar">&times;</a>
+      <div class="modal-cab">
+        <img src="img/sponsors/el-portal-aberturas.png" alt="Logo de El Portal Aberturas" loading="lazy">
+        <h2 id="t-el-portal-aberturas">El Portal Aberturas</h2>
+      </div>
+      <div class="modal-bloque"><h3>¿Quiénes son?</h3><p>Comercio especializado en aberturas.</p></div>
+      <div class="modal-bloque"><h3>¿Qué hacen?</h3><p>Acompañó al equipo aportando herramientas y apoyo para ingeniería, fundamentales para construir, ajustar y mejorar el robot.</p></div>
+      <div class="modal-bloque">
+        <h3>¿Dónde están?</h3>
+        <div>
+          <p>Zona Industrial, Carril Rodríguez Peña 958, M5513 Maipú, Mendoza</p>
+          <iframe class="mapa" title="Mapa de El Portal Aberturas" loading="lazy" src="https://maps.google.com/maps?q=Zona%20Industrial%2C%20Carril%20Rodr%C3%ADguez%20Pe%C3%B1a%20958%2C%20M5513%20Maip%C3%BA%2C%20Mendoza&amp;output=embed" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          <a class="mapa-link" href="https://www.google.com/maps/search/?api=1&amp;query=Zona%20Industrial%2C%20Carril%20Rodr%C3%ADguez%20Pe%C3%B1a%20958%2C%20M5513%20Maip%C3%BA%2C%20Mendoza" target="_blank" rel="noopener">Abrir mapa grande</a>
+        </div>
+      </div>
+      <div class="modal-pie">
+        <a class="nav-sp" href="#el-taller-en-3d" aria-label="Sponsor anterior">&larr;</a>
+        <a class="boton" href="https://www.google.com/maps/search/?api=1&amp;query=El+Portal+Aberturas+Mendoza" target="_blank" rel="noopener">Visitar sitio</a>
+        <a class="nav-sp" href="#printing-mendoza" aria-label="Sponsor siguiente">&rarr;</a>
+      </div>
+    </article>
+  </section>
+
+  <section class="modal" id="printing-mendoza" role="dialog" aria-labelledby="t-printing-mendoza">
+    <a class="modal-fondo" href="#sponsors-lista" aria-label="Cerrar"></a>
+    <article class="modal-caja">
+      <a class="cerrar" href="#sponsors-lista" aria-label="Cerrar">&times;</a>
+      <div class="modal-cab">
+        <img src="img/sponsors/printing-mendoza.jpg" alt="Logo de Printing Mendoza" loading="lazy">
+        <h2 id="t-printing-mendoza">Printing Mendoza</h2>
+      </div>
+      <div class="modal-bloque"><h3>¿Quiénes son?</h3><p>Printing Service e imprenta en Mendoza.</p></div>
+      <div class="modal-bloque"><h3>¿Qué hacen?</h3><p>Gran formato, vinilo, lona, UV, DTF, polyfan y más. Realiza trabajos minoristas y mayoristas. Para presupuestos, contactalos por WhatsApp.</p></div>
+      <div class="modal-bloque">
+        <h3>¿Dónde están?</h3>
+        <div>
+          <p>9 de Julio 891 Lote 12, M5501 Godoy Cruz, Mendoza</p>
+          <iframe class="mapa" title="Mapa de Printing Mendoza" loading="lazy" src="https://maps.google.com/maps?q=9%20de%20Julio%20891%20Lote%2012%2C%20M5501%20Godoy%20Cruz%2C%20Mendoza&amp;output=embed" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          <a class="mapa-link" href="https://www.google.com/maps/search/?api=1&amp;query=9%20de%20Julio%20891%20Lote%2012%2C%20M5501%20Godoy%20Cruz%2C%20Mendoza" target="_blank" rel="noopener">Abrir mapa grande</a>
+        </div>
+      </div>
+      <div class="modal-pie">
+        <a class="nav-sp" href="#el-portal-aberturas" aria-label="Sponsor anterior">&larr;</a>
+        <a class="boton" href="https://www.google.com/maps/search/?api=1&amp;query=PRINTING+Mendoza" target="_blank" rel="noopener">Visitar sitio</a>
+        <a class="nav-sp" href="#bordados-vista" aria-label="Sponsor siguiente">&rarr;</a>
+      </div>
+    </article>
+  </section>
+
+  <section class="modal" id="bordados-vista" role="dialog" aria-labelledby="t-bordados-vista">
+    <a class="modal-fondo" href="#sponsors-lista" aria-label="Cerrar"></a>
+    <article class="modal-caja">
+      <a class="cerrar" href="#sponsors-lista" aria-label="Cerrar">&times;</a>
+      <div class="modal-cab">
+        <img src="img/sponsors/bordados-vista.jpg" alt="Logo de Bordados Vista" loading="lazy">
+        <h2 id="t-bordados-vista">Bordados Vista</h2>
+      </div>
+      <div class="modal-bloque"><h3>¿Quiénes son?</h3><p>Servicio de bordado, sublimado y estampado.</p></div>
+      <div class="modal-bloque"><h3>¿Qué hacen?</h3><p>Personalizados y trabajos empresariales. Más de 18 años de experiencia avalan su calidad. Su lema: detalles únicos en cada puntada. Contactalos para presupuestos.</p></div>
+      <div class="modal-bloque">
+        <h3>¿Dónde están?</h3>
+        <div>
+          <p>Vereda este, 9 de Julio 1873, M5500 Mendoza</p>
+          <iframe class="mapa" title="Mapa de Bordados Vista" loading="lazy" src="https://maps.google.com/maps?q=Vereda%20este%2C%209%20de%20Julio%201873%2C%20M5500%20Mendoza&amp;output=embed" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          <a class="mapa-link" href="https://www.google.com/maps/search/?api=1&amp;query=Vereda%20este%2C%209%20de%20Julio%201873%2C%20M5500%20Mendoza" target="_blank" rel="noopener">Abrir mapa grande</a>
+        </div>
+      </div>
+      <div class="modal-pie">
+        <a class="nav-sp" href="#printing-mendoza" aria-label="Sponsor anterior">&larr;</a>
+        <a class="boton" href="https://www.google.com/maps/search/?api=1&amp;query=Bordados+Vista+Mendoza" target="_blank" rel="noopener">Visitar sitio</a>
+        <a class="nav-sp" href="#emperatriz" aria-label="Sponsor siguiente">&rarr;</a>
+      </div>
+    </article>
+  </section>
+
+  <section class="modal" id="emperatriz" role="dialog" aria-labelledby="t-emperatriz">
+    <a class="modal-fondo" href="#sponsors-lista" aria-label="Cerrar"></a>
+    <article class="modal-caja">
+      <a class="cerrar" href="#sponsors-lista" aria-label="Cerrar">&times;</a>
+      <div class="modal-cab">
+        <img src="img/sponsors/emperatriz.jpg" alt="Logo de Emperatriz" loading="lazy">
+        <h2 id="t-emperatriz">Emperatriz</h2>
+      </div>
+      <div class="modal-bloque"><h3>¿Quiénes son?</h3><p>Emprendimiento de diseño gráfico.</p></div>
+      <div class="modal-bloque"><h3>¿Qué hacen?</h3><p>Banderas, banners y mucho más para mostrar lo que llevás dentro. Contacto por WhatsApp: 261 270-0341.</p></div>
+      <div class="modal-bloque">
+        <h3>¿Dónde están?</h3>
+        <div>
+          <p>Mendoza, Capital, Mendoza</p>
+          <iframe class="mapa" title="Mapa de Emperatriz" loading="lazy" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31875.788848346023!2d-68.87830012510625!3d-32.88416404800791!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x967e093ec45179bf%3A0x205a78f6d20efa3a!2sMendoza%2C%20Capital%2C%20Mendoza!5e0!3m2!1ses-419!2sar!4v1793155243852!5m2!1ses-419!2sar" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          <a class="mapa-link" href="https://www.google.com/maps/search/?api=1&amp;query=Emperatriz%20Mendoza" target="_blank" rel="noopener">Abrir mapa grande</a>
+        </div>
+      </div>
+      <div class="modal-pie">
+        <a class="nav-sp" href="#bordados-vista" aria-label="Sponsor anterior">&larr;</a>
+        <a class="boton" href="https://wa.me/542612700341" target="_blank" rel="noopener">Visitar sitio</a>
+        <a class="nav-sp" href="#uncuyo" aria-label="Sponsor siguiente">&rarr;</a>
+      </div>
+    </article>
+  </section>
 </body>
 </html>
